@@ -5,7 +5,6 @@ public class Tree {
     public Tree(){
         root = null;
     }
-
     private void buildTree(Node node, int value){
         if(root == null)
             root = new Node(value);
